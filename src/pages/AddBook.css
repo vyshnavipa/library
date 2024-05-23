@@ -1,0 +1,46 @@
+/* Style the container */
+.add-book-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #040404;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow:2px 2px 2px rgb(18, 20, 23);
+  }
+  
+  /* Style the form */
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .add-book-form label {
+    margin-bottom: 5px;
+  }
+  
+  .add-book-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-book-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+
+  }
+  .add-book-form button:hover {
+    background-color: #4a1cd4;
+  }
+  
